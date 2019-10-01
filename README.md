@@ -18,3 +18,5 @@ Purpose of this pattern is to make a subsystem easier to use through a simplifie
 The principle prevents us from creating designs that have a large number of classes coupled together so that changes in one part
 of the system cascade to other parts. When you build lot of dependencies between many classes, you are building a fragile system
 that will be costly to maintain and complex for others to understand.
+
+purposes of this principle is to reduces the dependencies between objects and reduces software maintenance. And also in
