@@ -19,4 +19,10 @@ The principle prevents us from creating designs that have a large number of clas
 of the system cascade to other parts. When you build lot of dependencies between many classes, you are building a fragile system
 that will be costly to maintain and complex for others to understand.
 
-purposes of this principle is to reduces the dependencies between objects and reduces software maintenance.
+Purposes of this principle is to reduces the dependencies between objects and reduces software maintenance.
+This principle tells that we should only invoke methods that belong to:
+- The object itself
+- Objects passed in parameter to the method
+- Any object the method creates or instantiates
+- Any components of the object
+
